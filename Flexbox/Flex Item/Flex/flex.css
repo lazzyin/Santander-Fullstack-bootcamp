@@ -1,0 +1,22 @@
+.container{
+    display:flex;
+    border:1px solid black;
+    max-width: 400px;
+    margin-bottom:10px;
+}
+
+.item{
+    background-color: orangered;
+    margin:5px;
+    font-size:24px;
+    text-align: center;
+}
+.flex-1{
+    flex:1;/*Grow=1, shrink=1, basis=0*/
+}
+.lg{
+    width:200px;
+}
+.flex-2{
+    flex:2;
+}

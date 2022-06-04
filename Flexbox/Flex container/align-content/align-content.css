@@ -1,0 +1,33 @@
+.container{
+    border:1px solid black;
+    height:400px;
+    margin: 0 auto;
+    max-width:300px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.item{
+background-color: orangered;
+padding:0 5px;
+flex:1;
+text-align: center;
+color:white;
+margin:5px;
+}
+
+.center{
+    align-content: center;
+}
+.flex-end{
+    align-content: flex-end;
+}
+.flex-start{
+    align-content: flex-start;
+}
+.space-around{
+    align-content:space-around;
+}
+.space-between{
+    align-content:space-between;
+}
