@@ -1,21 +1,13 @@
 <h1>Atribuição de Valores</h1>
 
-<tb>
-<tr><th>Case Type</th></tb>
-<td>Original Variable as String</td>
-<td>Camel Case</td>
-<td>Snake Case</td>
-<td>Kebab Case</td>
-<td>Pascal Case</td>
-<td>Upper Case Snake Case</td>
-<tr><th>Example</th></tb>
-<td>same awesome var</td>
-<td>sameAwesomeVar</td>
-<td>same_awesome_var</td>
-<td>same-awesome-var</td>
-<td>SameAwesomeVar</td>
-<td>SOME_AWESOME_VAR</td>
-</tb>
+<ul> 
+<li>Original : same awesome var</li>
+<li>Camel Case : sameAwesomeVar</li>
+<li>Snake_case : same_awesome_var</li>
+<li>Kebab-case : same-awesome-var</li>
+<li>PascalCase : SameAwesomeVar</li>
+<li>UPPER_SNAKE_CASE : SOME_AWESOME_VAR</li>
+</ul>
 
 <h1>Var e let</h1>
 
@@ -44,29 +36,10 @@
 
 
 <h1>Caracteristicas</h1>
-<tb>
-<th><tr></tr></th>
-<td>Escopo</td>
-<td>redeclarar</td>
-<td>reatribuir</td>
-<td>hoisting</td>
-
-<th><tr>Var</tr></th>
-<td>Global ou local</td>
-<td>sim</td>
-<td>sim</td>
-<td>sim</td>
-
-<th><tr>const</tr></th>
-<td>bloco</td>
-<td>não</td>
-<td>não</td>
-<td>não</td>
-
-<th><tr>let</tr></th>
-<td>bloco</td>
-<td>não</td>
-<td>sim</td>
-<td>não</td>
-
-</tb>
+<ul>
+<li>           |     Var       |    const  |   let   |</li>
+<li>Escopo     |Global ou local|   bloco   |   bloco   |</li>
+<li>redeclarar |     sim       |    não    |   não     |</li>
+<li>reatribuir |     sim       |    não    |   sim    |</li>
+<li>hoisting   |     sim       |    não    |   não    |</li>
+</ul>

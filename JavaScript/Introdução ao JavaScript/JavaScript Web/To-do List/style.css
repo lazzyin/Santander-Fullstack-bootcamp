@@ -62,7 +62,35 @@ header{
     background-color: white;;
 
 }
-
+.task-item{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:6px;
+    margin-top:6px;
+}
+.task-button{
+ 
+    border-radius:5px;
+    height:100%;
+    font-weight: 500;
+    border:none;
+    font-size:1rem;
+    padding:12px;
+    cursor:pointer;
+    margin-left: 12px;
+    background-color: rgba(253, 44, 96, 0.5);
+    color:white;
+}
 .error{
     border:2px solid red !important;
+}
+.error::placeholder{
+    color:red;
+}
+
+.completed{
+    text-decoration: line-through;
+    color:#fff;
+    background-color: #fff;
 }
